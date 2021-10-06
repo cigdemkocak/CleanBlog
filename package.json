@@ -1,0 +1,25 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "CleanBlog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cigdemkocak/CleanBlog.git"
+  },
+  "keywords": [
+    "Blog"
+  ],
+  "author": "Çiğdem Koçak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cigdemkocak/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/cigdemkocak/CleanBlog#readme",
+  "devDependencies": {
+    "prettier": "2.4.1"
+  }
+}
