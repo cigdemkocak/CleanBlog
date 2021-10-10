@@ -35,9 +35,23 @@
           </blockquote>
           
         </div>
+        <div class="col-lg-3 col-md-4" style="margin-top: 60px;">
+          <form method ="" action="" class="tm-contact-form"  encType="multipart/form-data">
+            <div class="form-group mb-5">
+              <a href="/posts/edit/<%= post._id %>"  class="btn btn-primary rounded-0 d-block ml-auto mr-0 tm-btn-animate tm-btn-submit tm-icon-submit"><span>Update The Post</span></a>
+            </div>
+            <div class="form-group">
+              <a href="/posts/<%= post._id %>?_method=DELETE" class="btn btn-danger rounded-0 d-block ml-auto mr-0 tm-btn-animate tm-btn-submit tm-icon-submit"
+                onclick="return confirm('ARE YOU SURE')"
+              ><span>Delete The Post</span></a>
+            </div>
+          </form>   
+        </div> 
+        </div>
       </div>
     </div>
   </article>
+  
 
   <hr>
 
